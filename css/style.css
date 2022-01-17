@@ -1,0 +1,253 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+}
+
+.site-title{
+    font-weight: 600;
+    font-size: 35px;
+    color: #ed4f2e;
+    margin-top: 100px;
+}
+
+.site-subtitle{
+    width: 100%;
+    max-width: 538px;
+    font-size: 14px;
+    color: #1f2c33;
+}
+
+.line{
+    width: 134px;
+    height: 1px;
+    background: #d7d7d7;
+    margin-top: 28px !important;
+}
+.header .navbar{
+    padding: 35px 0;
+}
+.header .navbar .nav-link{
+    padding: 11px 17px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1f2c33
+}
+.header .navbar .nav-link.active{
+    font-weight: 700;
+    color: #fff !important;
+    background: #ed4f2e;
+}
+.header .navbar .nav-link:hover{
+    color: #ed4f2e;
+}
+/* MAIN */
+.main{
+    background: url(../images/header_bg.jpg) no-repeat center / cover;
+    padding: 275px 0 260px;
+}
+.main .title{
+    font-size: 50px;
+}
+.main .subtitle{
+    font-size: 14px;
+    line-height: 25px;
+    margin: 20px 0 35px;
+}
+.main .btn{
+    font-size: 14px;
+    color: #fff;
+    padding: 22px 50px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.main .btn:hover{
+    background: #fff;
+    color: #ed4f2e;
+}
+.main .btn:focus{
+    box-shadow: none;
+}
+/* services */
+.services .item{
+    margin-top: 100px;
+}
+.services .item i{
+    font-size: 60px;
+}
+.services .item .title{
+    font-size: 25px;
+    color: #1f2c33;
+    margin: 20px 0 13px;
+}
+.services .item:hover .title{
+    color: #ed4f2e;
+}
+.services .item .text{
+    font-size: 14px;
+    color: #4f4f4f;
+    line-height: 21px;
+}
+/* pricing */
+.pricing .box{
+    border: 1px solid #ebebeb;
+    margin-top: 100px;   
+}
+.pricing .box.active{
+    border-color: #ed4f2e;
+}
+.pricing .box .status{
+    font-weight: 600;
+    font-size: 24px;
+    color: #1f2c33;
+    padding: 30px 0;
+    margin-bottom: 0;
+}
+.pricing .box .price{
+    font-weight: 600;
+    font-size: 45px;
+    color: #1f2c33;
+    background: #ebebeb;
+    padding: 28px 0;
+    line-height: 1;
+}
+.pricing .box.active .price{
+    background: #ed4f2e;
+    color: #fff;
+}
+.pricing .box .price span{
+    font-size: 24px;
+    font-weight: 400;
+}
+.pricing .box .list{
+    list-style: none;
+    padding: 0;
+    margin: 50px 0;
+}
+.pricing .box .list-item{
+    font-size: 14px;
+    color: #4f4f4f;
+    line-height: 31px;
+}
+.pricing .box .btn{
+    font-size: 14px;
+    color: #fff;
+    background: #ed4f2e;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-bottom: 55px;
+}
+
+/* projects */
+.projects .line{
+    margin-bottom: 100px;
+}
+.projects .project-link{
+    width: 100%;
+    height: 365px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.projects .project-link img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+/* CONTACT */
+
+.contact form{
+    padding: 100px 0;
+}
+
+.contact .input{
+    font-weight: 300;
+    font-size: 14px;
+    color: #1f2c33;
+    padding: 30px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    outline: none;
+}
+.contact .input:focus{
+    border-color: #ed4f2e;
+}
+.contact textarea{
+    height: 290px;
+    /* new code */
+    resize: none;
+}
+.contact .btn{
+    color: #fff;
+    background: #ed4f2e;
+    font-size: 14px;
+    padding: 14px 43px;
+    border-radius: 5px;
+}
+/* footer */
+.footer{
+    padding: 85px 0;
+    background: #1f2c33;
+}
+.footer .title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer .text{
+    font-size: 14px;
+    color: #a3b1bf;
+    line-height: 22px;
+}
+.footer .logo{
+    margin-bottom: 13px;
+}
+.footer .block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.footer form{
+    display: flex;
+    margin: 20px 0;
+    background: #404b51;
+    border-radius: 3px 0 0 3px;
+}
+.footer form .btn{
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    background: #ed4f2e;
+    text-transform: uppercase;
+}
+.footer form input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    color: #a3b1bf;
+    padding-left: 10px;
+     
+}
+
+.footer .social{
+    display: flex;
+    gap: 15px;
+    
+}
+.footer .social .link{
+    font-size: 20px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
